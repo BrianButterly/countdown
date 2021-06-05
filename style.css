@@ -48,7 +48,10 @@ h1 {
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 2rem;
-    grid-template-columns: 2fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
   
   .countdown-container {
@@ -57,5 +60,18 @@ h1 {
 
   .big-text {
     font-size: 4rem;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+
+  body {
+    background-position: bottom;
+  }
+
+  .countdown-el span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
 }
