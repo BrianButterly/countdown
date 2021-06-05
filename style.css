@@ -15,11 +15,13 @@ body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
   margin: 0;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h1 {
   font-size: 4rem;
   margin-top: -20rem;
+  color: white;
 }
 
 .countdown-container {
@@ -27,6 +29,7 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
 .big-text {
@@ -56,11 +59,11 @@ h1 {
   
   .countdown-container {
     grid-template-columns: 2fr;
+    color: white;
   }
 
   .big-text {
     font-size: 4rem;
-    color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
 
@@ -71,7 +74,6 @@ h1 {
   .countdown-el span {
     font-size: 1.5rem;
     font-weight: bold;
-    color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
 }
