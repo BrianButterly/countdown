@@ -48,7 +48,7 @@ h1 {
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 2rem;
-    margin-top: 80px;
+    grid-template-columns: 2fr;
   }
   
   .countdown-container {
