@@ -30,3 +30,10 @@ function formatTime(time) {
 countdown();
 
 setInterval(countdown, 1000);
+
+function fun() {
+  $("#loader").addClass("hide-loader");
+}
+setTimeout(function () {
+  fun();
+}, 5000);

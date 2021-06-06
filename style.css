@@ -15,7 +15,8 @@ body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
   margin: 0;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 h1 {
@@ -54,9 +55,10 @@ h1 {
     margin-left: 20px;
     margin-right: 20px;
     color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
   }
-  
+
   .countdown-container {
     grid-template-columns: 2fr;
     color: white;
@@ -64,7 +66,8 @@ h1 {
 
   .big-text {
     font-size: 4rem;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
   }
 
   body {
@@ -74,6 +77,25 @@ h1 {
   .countdown-el span {
     font-size: 1.5rem;
     font-weight: bold;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
   }
+}
+
+.loader {
+  border: 16px solid white;
+  border-top: 16px solid blue;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  animation: spin 2s infinite;
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg); }
+  100% {transform: rotate(360deg);}
+}
+
+.hide-loader {
+  display: none;
 }
