@@ -5,8 +5,8 @@
 }
 
 body {
-  background-image: url(https://images.unsplash.com/photo-1471079502516-250c19af6928?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1334&q=80);
-  background-size: cover;
+  /* background-image: url(https://images.unsplash.com/photo-1471079502516-250c19af6928?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1334&q=80); */
+  /* background-size: cover; */
   /* background-position: center; */
   display: flex;
   flex-direction: column;
@@ -23,6 +23,7 @@ h1 {
   font-size: 4rem;
   margin-top: -20rem;
   color: white;
+  position: relative;
 }
 
 .countdown-container {
@@ -31,6 +32,7 @@ h1 {
   align-items: center;
   justify-content: center;
   color: white;
+  position: relative;
 }
 
 .big-text {
@@ -102,4 +104,13 @@ h1 {
 
 .hide-loader {
   display: none;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  
 }
